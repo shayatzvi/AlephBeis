@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hebrew Learning Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hebrew Learning Adventure</h1>
+            <div class="score-container">
+                <p>Score: <span id="score">0</span></p>
+                <p>Level: <span id="level">1</span></p>
+                <button id="level-selector-btn" class="small-btn">Change Level</button>
+            </div>
+        </header>
+
+        <div id="level-selector-container" class="level-selector hidden">
+            <!-- Level buttons will be added here by JavaScript -->
+        </div>
+
+        <div class="game-area">
+            <div id="question-container">
+                <h2>Match the Hebrew with its meaning:</h2>
+                <div id="hebrew-display"></div>
+            </div>
+            
+            <div id="options-container"></div>
+            
+            <div id="feedback" class="hidden"></div>
+        </div>
+
+        <div class="controls">
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <footer><center><p>Built by richard and ai <a href="how-to.html">How to play</a></p></center></footer>
+</body>
+</html> 
