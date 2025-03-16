@@ -1,5 +1,5 @@
 # AlephBeis  
-*A fun and interactive game to help teach Hebrew!*  
+*A fun and interactive game to learn Hebrew!*  
 
 ## How to Play 📖  
 
