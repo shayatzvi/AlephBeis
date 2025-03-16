@@ -26,6 +26,9 @@ Learning should be fun! Even though you're learning Hebrew, you can still enjoy 
 ## Feedback & Suggestions   
 I would love your feedback! If you have any suggestions for improvements, new features, or anything else, please report it on the Issues page of this repository. Your input helps make AlephBeis even better!  
 
+## Future plans for the game
+I would like to implement a scoreboard into this game at some point, showing the most recent top 15 high scores. My plan is to use a simple api where the scores are stored in a Google Sheet, and it posts and gets from that api.
+
 ---
 
 
